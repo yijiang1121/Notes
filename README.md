@@ -1,4 +1,4 @@
 Notes
 =====
 
-A collection of learning notes
+A collection of learning notes.
