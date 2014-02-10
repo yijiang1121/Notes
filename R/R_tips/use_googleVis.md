@@ -28,14 +28,14 @@ print(M, "chart")
 ```
 
 <!-- MotionChart generated in R 3.0.2 by googleVis 0.4.7 package -->
-<!-- Sun Feb  9 17:29:02 2014 -->
+<!-- Sun Feb  9 17:35:06 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID118961334e89 () {
+function gvisDataMotionChartID122e3432e9c3 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -803,14 +803,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID118961334e89() {
-var data = gvisDataMotionChartID118961334e89();
+function drawChartMotionChartID122e3432e9c3() {
+var data = gvisDataMotionChartID122e3432e9c3();
 var options = {};
 options["width"] =    600;
 options["height"] =    500;
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID118961334e89')
+    document.getElementById('MotionChartID122e3432e9c3')
     );
     chart.draw(data,options);
     
@@ -834,9 +834,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID118961334e89);
+callbacks.push(drawChartMotionChartID122e3432e9c3);
 })();
-function displayChartMotionChartID118961334e89() {
+function displayChartMotionChartID122e3432e9c3() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -860,11 +860,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID118961334e89"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID122e3432e9c3"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID118961334e89"
+<div id="MotionChartID122e3432e9c3"
   style="width: 600px; height: 500px;">
 </div>
 
@@ -873,14 +873,14 @@ print(N, "chart")
 ```
 
 <!-- AnnotatedTimeLine generated in R 3.0.2 by googleVis 0.4.7 package -->
-<!-- Sun Feb  9 17:29:02 2014 -->
+<!-- Sun Feb  9 17:35:06 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataAnnotatedTimeLineID11896f693639 () {
+function gvisDataAnnotatedTimeLineID122e7a911bfa () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1496,14 +1496,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartAnnotatedTimeLineID11896f693639() {
-var data = gvisDataAnnotatedTimeLineID11896f693639();
+function drawChartAnnotatedTimeLineID122e7a911bfa() {
+var data = gvisDataAnnotatedTimeLineID122e7a911bfa();
 var options = {};
 options["width"] =    600;
 options["height"] =    300;
 
     var chart = new google.visualization.AnnotatedTimeLine(
-    document.getElementById('AnnotatedTimeLineID11896f693639')
+    document.getElementById('AnnotatedTimeLineID122e7a911bfa')
     );
     chart.draw(data,options);
     
@@ -1527,9 +1527,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartAnnotatedTimeLineID11896f693639);
+callbacks.push(drawChartAnnotatedTimeLineID122e7a911bfa);
 })();
-function displayChartAnnotatedTimeLineID11896f693639() {
+function displayChartAnnotatedTimeLineID122e7a911bfa() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1553,11 +1553,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartAnnotatedTimeLineID11896f693639"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartAnnotatedTimeLineID122e7a911bfa"></script>
  
 <!-- divChart -->
   
-<div id="AnnotatedTimeLineID11896f693639"
+<div id="AnnotatedTimeLineID122e7a911bfa"
   style="width: 600px; height: 300px;">
 </div>
 
