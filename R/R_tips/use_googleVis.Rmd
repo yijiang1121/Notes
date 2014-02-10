@@ -1,0 +1,26 @@
+Try googleVis package
+======
+
+```{r}
+rm(list=ls())
+# suppress messages from requiring "googleVis"
+suppressMessages(library(googleVis))
+
+?as.Date
+mydata<-data.frame(id=1,y=rnorm(n=151,mean=10,sd=1),date=as.Date(0:150,origin="2013-09-01"))
+
+# Motion char is not the best one for this simple data set
+M <- gvisMotionChart(mydata, idvar="id", timevar="date")
+
+# Timeline plot makes more sense for this data set
+N <- gvisAnnotatedTimeLine(mydata, datevar="date", numvar="y")
+```
+
+```{r results='asis'}
+# plot(M) won't work in RMarkdown 
+
+# this won't work for M
+# TODO: figure out why
+print(M, 'chart')
+print(N, 'chart')
+```
