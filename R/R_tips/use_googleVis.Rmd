@@ -19,8 +19,6 @@ N <- gvisAnnotatedTimeLine(mydata, datevar="date", numvar="y")
 ```{r results='asis'}
 # plot(M) won't work in RMarkdown 
 
-# this won't work for M
-# TODO: figure out why
 print(M, 'chart')
 print(N, 'chart')
 ```
