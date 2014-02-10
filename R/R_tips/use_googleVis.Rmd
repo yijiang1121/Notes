@@ -6,6 +6,7 @@ rm(list=ls())
 # suppress messages from requiring "googleVis"
 suppressMessages(library(googleVis))
 
+set.seed(1121)
 ?as.Date
 mydata<-data.frame(id=1,y=rnorm(n=151,mean=10,sd=1),date=as.Date(0:150,origin="2013-09-01"))
 
