@@ -2,6 +2,7 @@ Some R tips
 ======
 
 R object names can start with a dot (.)
+Q: is this similar to Scalar?
 ------
 
 ```{r}
